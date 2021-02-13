@@ -3,6 +3,8 @@ Tools I use to help me trade
 
 ## FTX ShortKeys Shortcuts
 
+Please see https://github.com/TraderSamwise/tealstreet for details on installing ShortKeys / importing these settings. Note the FTX is also built on React and therefore uses a virtual router, so the shortcuts won't work unless you refresh the page after navigating to a market such that "*ftx.com/trade/*" matches your url. Also, the default shortcuts conflict with typing when attempting to search for markets, so if you have to type you may need to navigate to the FTX landing page and refresh to temporarily stop the shortcuts, search for the market you want, and then refresh again.
+
 ```
 [{
 		"key": "z",

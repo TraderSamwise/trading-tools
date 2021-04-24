@@ -187,7 +187,7 @@ Please see https://github.com/TraderSamwise/tealstreet for details on installing
 
 ### FTX PNL Hider
 
-Upon requet I wrote a superscript to hide position PNL on FTx. 
+Upon requet I wrote a superscript to hide position PNL on FTX. 
 
 You must install TamperMonkey chrome extension: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en. 
 

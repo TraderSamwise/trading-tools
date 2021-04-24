@@ -184,3 +184,13 @@ Please see https://github.com/TraderSamwise/tealstreet for details on installing
 	}
 ]
 ```
+
+### FTX PNL Hider
+
+Upon requet I wrote a superscript to hide position PNL on FTx. 
+
+You must install TamperMonkey chrome extension: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en. 
+
+The script to install can be found here: https://openuserjs.org/scripts/TraderSamwise/FTX_pnl_hider.
+
+You will have to refresh the '.../trade/' page on FTX or make it the first page that loads for the script to activate, as FTX uses React and the virtual router and page URLs are only registered on first visiting the site.

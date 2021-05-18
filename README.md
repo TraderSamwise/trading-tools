@@ -184,6 +184,15 @@ Please see https://github.com/TraderSamwise/tealstreet for details on installing
 	}
 ]
 ```
+### FTX Custom Theme
+
+You must install TamperMonkey chrome extension: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en. 
+
+The script to install can be found here: https://openuserjs.org/scripts/TraderSamwise/FTX_Custom_Theme
+
+All settings, colors, etc are stored in vars at the top of the file. You can easily customize them by changing their values.
+
+
 
 ### FTX PNL Hider
 

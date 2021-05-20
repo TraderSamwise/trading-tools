@@ -141,7 +141,7 @@
   {
     "key": "alt+shift+a",
     "action": "javascript",
-    "code": "document.getElementsByClassName(\"MuiButtonBase-root MuiTab-root\")[document.getElementsByClassName(\"MuiButtonBase-root MuiTab-root\").length-9].click();\ndocument.getElementsByClassName(\"MuiButton-containedPrimary\")[0].click();",
+    "code": "document.getElementsByClassName(\"MuiButtonBase-root MuiTab-root\")[document.getElementsByClassName(\"MuiButtonBase-root MuiTab-root\").length-9].click();\ndocument.getElementsByClassName(\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth\")[0].click();",
     "blacklist": "whitelist",
     "sites": "*ftx.com/trade/*",
     "activeInInputs": true,
@@ -154,7 +154,7 @@
     "action": "javascript",
     "activeInInputs": true,
     "blacklist": "whitelist",
-    "code": "document.getElementsByClassName(\"MuiButtonBase-root MuiTab-root\")[document.getElementsByClassName(\"MuiButtonBase-root MuiTab-root\").length-8].click();\ndocument.getElementsByClassName(\"MuiButton-containedPrimary\")[0].click();",
+    "code": "document.getElementsByClassName(\"MuiButtonBase-root MuiTab-root\")[document.getElementsByClassName(\"MuiButtonBase-root MuiTab-root\").length-8].click();\ndocument.getElementsByClassName(\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth\")[0].click();",
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
       "*ftx.com/trade/*"

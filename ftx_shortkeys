@@ -130,7 +130,7 @@
   {
     "key": "x",
     "action": "javascript",
-    "code": "posMenu = false;\ntry {\ntableText = document.getElementsByClassName(\"MuiTableHead-root\")[3].children[0].children[0].innerText\nif (tableText == \"Market\" || tableText == \"Coin\") {\nposMenu = true;\n}\n} catch {}\ndocument.getElementsByClassName(\"MuiTab-wrapper\")[6].click();\ntry {\ndocument.getElementsByClassName(\"MuiTableBody-root\")[3].children[0].children[6].children[0].click()\n} catch {}\nposMenu && document.getElementsByClassName('MuiTab-wrapper')[5].click();\n\n\n",
+    "code": "posMenu = false;\ntry {\ntableText = document.getElementsByClassName(\"MuiTableHead-root\")[3].children[0].children[0].innerText\nif (tableText == \"Market\" || tableText == \"Coin\") {\nposMenu = true;\n}\n} catch {}\ndocument.getElementsByClassName(\"MuiTab-wrapper\")[document.getElementsByClassName(\"MuiTab-wrapper\").length -4].click();\ntry {\ndocument.getElementsByClassName(\"MuiTableBody-root\")[3].children[0].children[6].children[0].click()\n} catch {}\ndocument.getElementsByClassName(\"MuiTab-wrapper\")[document.getElementsByClassName(\"MuiTab-wrapper\").length -5].click();\n\n\n",
     "activeInInputs": true,
     "blacklist": "whitelist",
     "sites": "*ftx.com/trade/*",

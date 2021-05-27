@@ -8,7 +8,8 @@
     ],
     "activeInInputs": true,
     "blacklist": "whitelist",
-    "code": "document.getElementsByClassName(\"MuiTable-root\")[0].children[1].children[0].children[1].click();"
+    "code": "document.getElementsByClassName(\"MuiTable-root\")[0].children[1].children[0].children[1].click();",
+    "label": "set price to top price visible on the bid side"
   },
   {
     "key": "c",
@@ -19,7 +20,8 @@
     "sitesArray": [
       "*ftx.com/trade/*"
     ],
-    "activeInInputs": true
+    "activeInInputs": true,
+    "label": "set price to top price visible on the ask side"
   },
   {
     "key": "a",
@@ -30,7 +32,8 @@
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "decrease price by one tick"
   },
   {
     "key": "d",
@@ -41,7 +44,8 @@
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "increase price by one tick"
   },
   {
     "key": "alt+z",
@@ -52,7 +56,8 @@
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "set price to one tick above the top visible level on the bid side"
   },
   {
     "key": "alt+c",
@@ -63,7 +68,8 @@
     "code": "document.getElementsByClassName(\"MuiTable-root\")[0].children[1].children[0].children[1].click();\nvar input = document.getElementsByClassName(\"MuiInputBase-input\")[0]\ninput.stepUp();\nvar ev = new Event('input', { bubbles: true});\ninput.dispatchEvent(ev);",
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "set price to one tick above the top visible level on the ask side"
   },
   {
     "key": "2",
@@ -73,7 +79,8 @@
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "increase notional order size by 2k"
   },
   {
     "key": "1",
@@ -83,7 +90,8 @@
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "reset order size to 0"
   },
   {
     "key": "4",
@@ -93,7 +101,8 @@
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "increase notional order size by 4k"
   },
   {
     "key": "5",
@@ -103,7 +112,8 @@
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "increase notional order size by 5k"
   },
   {
     "key": "q",
@@ -114,7 +124,8 @@
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "toggle post (only on futures)"
   },
   {
     "key": "w",
@@ -125,7 +136,8 @@
     "code": "document.getElementsByClassName(\"MuiSwitch-input\")[0].click()",
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "toggle reduce (only on futures)"
   },
   {
     "key": "x",
@@ -136,7 +148,8 @@
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "cancel resting order at top of orders list"
   },
   {
     "key": "alt+shift+a",
@@ -147,7 +160,8 @@
     "activeInInputs": true,
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "place buy order with values in order form"
   },
   {
     "key": "alt+shift+d",
@@ -158,6 +172,7 @@
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
       "*ftx.com/trade/*"
-    ]
+    ],
+    "label": "place sell order with values in order form"
   }
 ]

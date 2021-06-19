@@ -16,6 +16,8 @@ The script to install can be found here: https://openuserjs.org/scripts/TraderSa
 
 All settings, colors, etc are stored in vars at the top of the file. You can easily customize them by changing their values.
 
+If you want to submit a pull request the source code repo is here: https://github.com/TraderSamwise/ftx-custom-theme.
+
 
 
 ### FTX PNL Hider

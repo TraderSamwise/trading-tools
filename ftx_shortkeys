@@ -74,7 +74,7 @@
   {
     "key": "2",
     "action": "javascript",
-    "code": "var input = document.getElementsByClassName(\"MuiInputBase-input\")[3]\ninput.step = 2000;\ninput.stepUp();\nev = new Event('input', { bubbles: true});\ninput.dispatchEvent(ev);",
+    "code": "var step = 2000\nvar input = document.getElementsByClassName(\"MuiInputBase-input\")[3]\ntry {\ninput.step = step;\ninput.stepUp();\n} catch (e) {\ninput = document.getElementsByClassName(\"MuiInputBase-input\")[2]\ninput.step = step;\ninput.stepUp();\n}\n\nev = new Event('input', { bubbles: true});\ninput.dispatchEvent(ev);",
     "blacklist": "whitelist",
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
@@ -87,7 +87,7 @@
     "key": "`",
     "action": "javascript",
     "blacklist": "whitelist",
-    "code": "var input = document.getElementsByClassName(\"MuiInputBase-input\")[3]\nif (input.value != \"\" && input.value != \"0\") {\ninput.step = parseFloat(input.value);\ninput.stepDown();\nev = new Event('input', { bubbles: true});\ninput.dispatchEvent(ev);\n}\n",
+    "code": "var input = document.getElementsByClassName(\"MuiInputBase-input\")[3]\ntry {\ninput.stepDown();\n} catch (e) {\ninput = document.getElementsByClassName(\"MuiInputBase-input\")[2]\n}\nif (input.value != \"\" && input.value != \"0\") {\ninput.step = parseFloat(input.value);\ninput.stepDown();\nev = new Event('input', { bubbles: true});\ninput.dispatchEvent(ev);\n}\n",
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
       "*ftx.com/trade/*"
@@ -97,7 +97,7 @@
   {
     "key": "4",
     "action": "javascript",
-    "code": "var input = document.getElementsByClassName(\"MuiInputBase-input\")[3]\ninput.step = 4000;\ninput.stepUp();\nev = new Event('input', { bubbles: true});\ninput.dispatchEvent(ev);",
+    "code": "var step = 4000\nvar input = document.getElementsByClassName(\"MuiInputBase-input\")[3]\ntry {\ninput.step = step;\ninput.stepUp();\n} catch (e) {\ninput = document.getElementsByClassName(\"MuiInputBase-input\")[2]\ninput.step = step;\ninput.stepUp();\n}\n\nev = new Event('input', { bubbles: true});\ninput.dispatchEvent(ev);",
     "blacklist": "whitelist",
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
@@ -108,7 +108,7 @@
   {
     "key": "5",
     "action": "javascript",
-    "code": "var input = document.getElementsByClassName(\"MuiInputBase-input\")[3]\ninput.step = 5000;\ninput.stepUp();\nev = new Event('input', { bubbles: true});\ninput.dispatchEvent(ev);",
+    "code": "var step = 5000\nvar input = document.getElementsByClassName(\"MuiInputBase-input\")[3]\ntry {\ninput.step = step;\ninput.stepUp();\n} catch (e) {\ninput = document.getElementsByClassName(\"MuiInputBase-input\")[2]\ninput.step = step;\ninput.stepUp();\n}\n\nev = new Event('input', { bubbles: true});\ninput.dispatchEvent(ev);",
     "blacklist": "whitelist",
     "sites": "*ftx.com/trade/*",
     "sitesArray": [
